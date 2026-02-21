@@ -1,0 +1,33 @@
+# ===============================
+# Python environment & caches
+# ===============================
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ===============================
+# VS Code / IDE settings
+# ===============================
+.vscode/
+.idea/
+
+# ===============================
+# Data, results, and temporary files
+# ===============================
+results/
+data/
+*.csv
+*.png
+*.jpg
+*.h5
+*.json
+*.log
+*.tmp
+
+# ===============================
+# uv / environment manager files
+# ===============================
+uv.lock
+uv.toml
