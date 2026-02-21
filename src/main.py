@@ -6,7 +6,7 @@ def main():
     # Create x values from 0 to 2*pi
     x = np.linspace(0, 2 * np.pi, 500)
     # Compute sine of x
-    y = np.sin(x)
+    y = np.sin(x) #+ np.cos(x) 
 
     # Plot
     plt.plot(x, y, label='sin(x)')
